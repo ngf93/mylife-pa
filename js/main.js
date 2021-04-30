@@ -134,3 +134,8 @@ function changeFieldset (val, formId) {
     }
   });
 }
+
+window.onload = function() {
+  let messagesBox = document.querySelector('.chat-window .middle');
+  messagesBox.lastElementChild.scrollIntoView();
+};
