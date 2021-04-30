@@ -127,7 +127,7 @@
 				<div class="col-md-8 col-lg-9">
 					<form action="" class="add_banner">
 						<div class="fw_7 text-uppercase mb-4">Разместить баннер</div>
-						<div class="row align-items-center mb-4">
+						<!-- <div class="row align-items-center mb-4">
 							<div class="col-sm-4 mb-2 mb-sm-0">
 								<div>Место размещения</div>
 							</div>
@@ -137,10 +137,10 @@
 									<option value="Главный баннер">Главный баннер</option>
 								</select>
 							</div>
-						</div>
-						<div class="radio justify-content-between align-items-start mb-4">
+						</div> -->
+						<div class="radio placing justify-content-between align-items-start mb-4">
 							<input type="radio" name="placement" class="mt-1">
-							<div class="flex-1">
+							<div class="placing-1">
 								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
 									<span>Приоритетное размещение</span>
 									<div class="ml-3 position-relative">
@@ -154,11 +154,18 @@
 									Отображается на главной странице сайта
 								</div>
 							</div>
-							<span class="price">200 ₽</span>
+							<div class="placing-2">
+								<div class="mb-2">Статус</div>
+								<div class="f_09 l-gray">Освободится 14.10.21</div>
+							</div>
+							<div class="placing-3">
+								<div class="mb-2">200 ₽</div>
+								<div class="f_09 l-gray">Доступно для бронирования</div>
+							</div>
 						</div>
-						<div class="radio justify-content-between align-items-start mb-4">
+						<div class="radio placing justify-content-between align-items-start mb-4">
 							<input type="radio" name="placement" class="mt-1">
-							<div class="flex-1">
+							<div class="placing-1">
 								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
 									<span>Рекламный баннер №1</span>
 									<div class="ml-3 position-relative">
@@ -172,11 +179,18 @@
 									Отображается на главной странице сайта
 								</div>
 							</div>
-							<span class="price">200 ₽</span>
+							<div class="placing-2">
+								<div class="mb-2">Статус</div>
+								<div class="f_09 l-gray">Свободен</div>
+							</div>
+							<div class="placing-3">
+								<div class="mb-2">200 ₽</div>
+								<div class="f_09 l-gray"></div>
+							</div>
 						</div>
-						<div class="radio justify-content-between align-items-start mb-4">
+						<div class="radio placing justify-content-between align-items-start mb-4">
 							<input type="radio" name="placement" class="mt-1">
-							<div class="flex-1">
+							<div class="placing-1">
 								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
 									<span>Рекламный баннер №2</span>
 									<div class="ml-3 position-relative">
@@ -190,11 +204,18 @@
 									Отображается на главной странице сайта
 								</div>
 							</div>
-							<span class="price">200 ₽</span>
+							<div class="placing-2">
+								<div class="mb-2">Статус</div>
+								<div class="f_09 l-gray">Освободится 14.10.21</div>
+							</div>
+							<div class="placing-3">
+								<div class="mb-2">200 ₽</div>
+								<div class="f_09 l-gray">Доступно для бронирования</div>
+							</div>
 						</div>
-						<div class="radio justify-content-between align-items-start mb-4">
+						<div class="radio placing justify-content-between align-items-start mb-4">
 							<input type="radio" name="placement" class="mt-1">
-							<div class="flex-1">
+							<div class="placing-1">
 								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
 									<span>Рекламный баннер №3</span>
 									<div class="ml-3 position-relative">
@@ -208,11 +229,18 @@
 									Отображается на главной странице сайта
 								</div>
 							</div>
-							<span class="price">200 ₽</span>
+							<div class="placing-2">
+								<div class="mb-2">Статус</div>
+								<div class="f_09 l-gray">Свободен</div>
+							</div>
+							<div class="placing-3">
+								<div class="mb-2">200 ₽</div>
+								<div class="f_09 l-gray"></div>
+							</div>
 						</div>
-						<div class="radio justify-content-between align-items-start mb-4">
+						<div class="radio placing justify-content-between align-items-start mb-4">
 							<input type="radio" name="placement" class="mt-1">
-							<div class="flex-1">
+							<div class="placing-1">
 								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
 									<span>Рекламный баннер №4</span>
 									<div class="ml-3 position-relative">
@@ -226,11 +254,18 @@
 									Отображается на главной странице сайта
 								</div>
 							</div>
-							<span class="price">200 ₽</span>
+							<div class="placing-2">
+								<div class="mb-2">Статус</div>
+								<div class="f_09 l-gray">Свободен</div>
+							</div>
+							<div class="placing-3">
+								<div class="mb-2">200 ₽</div>
+								<div class="f_09 l-gray"></div>
+							</div>
 						</div>
 						<div class="row align-items-center my-5">
 							<div class="col-sm-4 mb-2 mb-sm-0">
-								<div>Изображение</div>
+								<div class="mb-2">Изображение</div>
 								<div class="l-gray f_09">Размер баннера 1200*800</div>
 							</div>
 							<div class="col-sm-8">
@@ -272,6 +307,11 @@
 									<option value="2 месяца">2 месяца</option>
 									<option value="3 месяца">3 месяца</option>
 								</select>
+							</div>
+						</div>
+						<div class="row justify-content-end mb-4">
+							<div class="col-sm-8">
+								<p class="l-gray">Ваш баннер будет размещен с 14.10.21</p>
 							</div>
 						</div>
 						<button type="submit" class="btn_main btn_1">Сохранить и перейти к оплате</button>

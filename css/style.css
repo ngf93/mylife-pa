@@ -1190,3 +1190,23 @@ CHAT
 @media (max-width: 575px){
     .img-preview img {height: 27vw;}
 }
+
+
+.placing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.placing-1 {
+    flex: 1;
+}
+.placing-2 {
+    width: 200px;
+    text-align: center;
+}
+.placing-3 {
+    width: 170px;
+    text-align: center;
+    margin-left: 2em;
+}
