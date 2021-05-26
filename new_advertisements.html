@@ -126,143 +126,69 @@
 				</div>
 				<div class="col-md-8 col-lg-9">
 					<form action="" class="add_banner">
-						<div class="fw_7 text-uppercase mb-4">Разместить баннер</div>
-						<!-- <div class="row align-items-center mb-4">
-							<div class="col-sm-4 mb-2 mb-sm-0">
-								<div>Место размещения</div>
-							</div>
-							<div class="col-sm-8">
-								<select name="" id="">
-									<option value="Главный баннер">Главный баннер</option>
-									<option value="Главный баннер">Главный баннер</option>
-								</select>
-							</div>
-						</div> -->
-						<div class="radio placing justify-content-between align-items-start mb-4">
-							<input type="radio" name="placement" class="mt-1">
-							<div class="placing-1">
-								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
-									<span>Приоритетное размещение</span>
-									<div class="ml-3 position-relative">
-										<img src="images/icons/hint.svg" class="hint">
-										<img src="images/placement/place-1.jpg" class="hint-img hint-big">
+						<form id="add-advent" action="" class="add_banner">
+							<div class="fw_7 text-uppercase mb-4">Разместить баннер</div>
+							<div id="price-advent" class="mt-2 mb-2 advent-wrapper">
+								<div class="preview_grid mb-4">
+									<div class="preview_big advertising-block active">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Свободно</div>
+									</div>
+									<div class="preview_big advertising-block advertising-block-disabled">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Место недоступно</div>
+									</div>
+									<div class="preview_small advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Место недоступно</div>
+									</div>
+									<div class="preview_small advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat red">Занято до 22.06.21</div>
+									</div>
+									<div class="preview_small advertising-block advertising-block-taken">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Забронировано с 22.06.21</div>
+									</div>
+									<div class="preview_small advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Свободно</div>
+									</div>
+									<div class="preview_small advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Свободно</div>
+									</div>
+									<div class="preview_small advertising-block advertising-block-taken">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места Название места</div>
+										<div class="stat">Занято до 20.06.21</div>
+									</div>
+									<div class="preview_small advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Свободно</div>
+									</div>
+									<div class="preview_small advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Свободно</div>
+									</div>
+									<div class="preview_banner advertising-block">
+										<input type="radio" name="advert-checkbox" class="checkbox-advert-hidden" value="0">
+										<div class="title">Название места</div>
+										<div class="stat">Свободно</div>
 									</div>
 								</div>
-								<div class="l-gray f_09 mt-2">
-									Ширина: 1200 пикселей<br>
-									Высота: 800 пикселей<br>
-									Отображается на главной странице сайта
-								</div>
 							</div>
-							<div class="placing-2">
-								<div class="mb-2">Статус</div>
-								<div class="f_09 l-gray">Освободится 14.10.21</div>
-							</div>
-							<div class="placing-3">
-								<div class="mb-2">200 ₽</div>
-								<div class="f_09 l-gray">Доступно для бронирования</div>
-							</div>
-						</div>
-						<div class="radio placing justify-content-between align-items-start mb-4">
-							<input type="radio" name="placement" class="mt-1">
-							<div class="placing-1">
-								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
-									<span>Рекламный баннер №1</span>
-									<div class="ml-3 position-relative">
-										<img src="images/icons/hint.svg" class="hint">
-										<img src="images/placement/place-2.jpg" class="hint-img hint-big">
-									</div>
-								</div>
-								<div class="l-gray f_09 mt-2">
-									Ширина: 1200 пикселей<br>
-									Высота: 800 пикселей<br>
-									Отображается на главной странице сайта
-								</div>
-							</div>
-							<div class="placing-2">
-								<div class="mb-2">Статус</div>
-								<div class="f_09 l-gray">Свободен</div>
-							</div>
-							<div class="placing-3">
-								<div class="mb-2">200 ₽</div>
-								<div class="f_09 l-gray"></div>
-							</div>
-						</div>
-						<div class="radio placing justify-content-between align-items-start mb-4">
-							<input type="radio" name="placement" class="mt-1">
-							<div class="placing-1">
-								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
-									<span>Рекламный баннер №2</span>
-									<div class="ml-3 position-relative">
-										<img src="images/icons/hint.svg" class="hint">
-										<img src="images/placement/place-3.jpg" class="hint-img hint-big">
-									</div>
-								</div>
-								<div class="l-gray f_09 mt-2">
-									Ширина: 1200 пикселей<br>
-									Высота: 800 пикселей<br>
-									Отображается на главной странице сайта
-								</div>
-							</div>
-							<div class="placing-2">
-								<div class="mb-2">Статус</div>
-								<div class="f_09 l-gray">Освободится 14.10.21</div>
-							</div>
-							<div class="placing-3">
-								<div class="mb-2">200 ₽</div>
-								<div class="f_09 l-gray">Доступно для бронирования</div>
-							</div>
-						</div>
-						<div class="radio placing justify-content-between align-items-start mb-4">
-							<input type="radio" name="placement" class="mt-1">
-							<div class="placing-1">
-								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
-									<span>Рекламный баннер №3</span>
-									<div class="ml-3 position-relative">
-										<img src="images/icons/hint.svg" class="hint">
-										<img src="images/placement/place-4.jpg" class="hint-img hint-sm">
-									</div>
-								</div>
-								<div class="l-gray f_09 mt-2">
-									Ширина: 1200 пикселей<br>
-									Высота: 800 пикселей<br>
-									Отображается на главной странице сайта
-								</div>
-							</div>
-							<div class="placing-2">
-								<div class="mb-2">Статус</div>
-								<div class="f_09 l-gray">Свободен</div>
-							</div>
-							<div class="placing-3">
-								<div class="mb-2">200 ₽</div>
-								<div class="f_09 l-gray"></div>
-							</div>
-						</div>
-						<div class="radio placing justify-content-between align-items-start mb-4">
-							<input type="radio" name="placement" class="mt-1">
-							<div class="placing-1">
-								<div class="d-flex justify-content-between justify-content-sm-start align-items-center">
-									<span>Рекламный баннер №4</span>
-									<div class="ml-3 position-relative">
-										<img src="images/icons/hint.svg" class="hint">
-										<img src="images/placement/place-5.jpg" class="hint-img hint-sm">
-									</div>
-								</div>
-								<div class="l-gray f_09 mt-2">
-									Ширина: 1200 пикселей<br>
-									Высота: 800 пикселей<br>
-									Отображается на главной странице сайта
-								</div>
-							</div>
-							<div class="placing-2">
-								<div class="mb-2">Статус</div>
-								<div class="f_09 l-gray">Свободен</div>
-							</div>
-							<div class="placing-3">
-								<div class="mb-2">200 ₽</div>
-								<div class="f_09 l-gray"></div>
-							</div>
-						</div>
+						</form>
+
 						<div class="row align-items-center my-5">
 							<div class="col-sm-4 mb-2 mb-sm-0">
 								<div class="mb-2">Изображение</div>
